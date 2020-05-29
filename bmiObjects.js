@@ -2,7 +2,7 @@ var Mike = {
 	fullName : 'Mike Tyson',
 	profession : 'Boxer',
 	mass : 300,
-	height : 5.11,
+	height : 5.10,
 	calcBMI : function(){
 		this.BMI = this.mass / (this.height * this.height);
 		return this.BMI;
@@ -12,7 +12,7 @@ var John = {
 	fullName : 'John Cena',
 	profession: ['Actor', 'Wrestler'],
 	mass : 275,
-	height : 6.0,
+	height : 6.1,
 	calcBMI : function(){
 		this.BMI = this.mass / (this.height * this.height);
 		return this.BMI;
