@@ -1,6 +1,7 @@
 var Mike = {
 	fullName : 'Mike Tyson',
 	pet : 'Tiger',
+	profession : 'Boxer',
 	mass : 300,
 	height : 5.11,
 	calcBMI : function(){
@@ -11,6 +12,7 @@ var Mike = {
 var John = {
 	fullName : 'John Cena',
 	pet : 'Dog',
+	profession: ['Actor', 'Wrestler'],
 	mass : 275,
 	height : 6.0,
 	calcBMI : function(){
